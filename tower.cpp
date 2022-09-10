@@ -220,17 +220,17 @@ tower::shopTemplate::shopTemplate(tower *ownr)
 
 	if (!textHazeTexture.loadFromFile("Textury/haze.png"))
 	{
-		MessageBox(0, "Unable to open textHaze.png, please call to BartekS0ft", 0, 0);
+		std::cout<<"Nie mozna bylo wczytac textHaze.png";
 		return;
 	}
 	textHaze.setTexture(textHazeTexture);
 
 	hazeTimer = sf::Time::Zero;
 
-	font = game::getInstance()->getFont();
+	font = Gra::getInstance()->getFont();
 	cost.setFont(*font);
 
-	sf::Texture *padLTexture = mainGame::getInstance()->textures.getPadlock();
+	sf::Texture *padLTexture = MainGra::getInstance()->textures.getPadlock();
 	padlock.setTexture(*padLTexture);
 
 	unlocked = false;
@@ -250,7 +250,7 @@ bool tower::shopTemplate::isUnlocked()
 
 bool tower::shopTemplate::clicked()
 {
-	if ((towerSprite.getGlobalBounds().contains(getMousePos())) && (buttonSwitcher::canClick()) && (sf::Mouse::isButtonPressed(sf::Mouse::Left)))
+	if ((towerSprite.getGlobalBounds().contains(getMousePos())) && (Button::canClick()) && (sf::Mouse::isButtonPressed(sf::Mouse::Left)))
 	{
 		return true;
 	}
@@ -260,7 +260,7 @@ bool tower::shopTemplate::clicked()
 
 bool tower::shopTemplate::canUnlock()
 {
-	if (*mainGame::getInstance()->getLevel() >= owner->levelAcces)
+	if (*MainGra::getInstance()->getLevel() >= owner->levelAcces)
 		return true;
 
 	return false;
@@ -274,7 +274,7 @@ void tower::shopTemplate::unlock()
 void tower::shopTemplate::makeSpriteRed()
 {
 	towerSprite.setColor(sf::Color::Red);
-	print("o chuj nie ma kasy");
+	print("O jejku, nie ma kasy!");
 }
 
 void tower::shopTemplate::makeSpriteNormal()

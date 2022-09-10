@@ -8,7 +8,7 @@
 #include "Gra.h"
 #include <iomanip>
 #include "Template.h"
-
+#include "Button.h"
 
 class tower :public sf::Drawable
 {
