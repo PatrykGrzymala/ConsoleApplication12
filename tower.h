@@ -51,8 +51,8 @@ public:
 	bool isExtended();
 	virtual void sell();
 	bool upgradeGoldAcces;
-	virtual void addBuff(buff buffer) = 0;
-	virtual void removeBuff(buff unbuffer);
+	//virtual void addBuff(buff buffer) = 0;
+	//virtual void removeBuff(buff unbuffer);
 
 	virtual void unactiveHUD() = 0;
 	virtual void activateHUD() = 0;
@@ -77,7 +77,7 @@ protected:
 	bool HUDactive;
 	bool builded;
 	void expand();
-	bool buffed;
+	//bool buffed;
 
 	virtual void draw(sf::RenderTarget & target, sf::RenderStates states) const;
 };

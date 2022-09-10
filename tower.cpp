@@ -127,25 +127,25 @@ void tower::sell()
 	MainGra::getInstance()->getMap()->sellTower(this);
 }
 
-void tower::removeBuff(buff unbuffer)
+/*void tower::removeBuff(buff unbuffer)
 {
 
-}
+}*/
 
 void tower::build()
 {
 	builded = true;
 }
 
-void tower::buf(attackTower * buffingTower)
+/*void tower::buf(attackTower * buffingTower)
 {
 
-}
+}*/
 
-bool tower::isBuffed()
+/*bool tower::isBuffed()
 {
 	return buffed;
-}
+}*/
 
 void tower::draw(sf::RenderTarget & target, sf::RenderStates states) const
 {
@@ -177,11 +177,11 @@ bool tower::workshopHandler::Placed()
 
 tower::workshopHandler::workshopHandler()
 {
-	font = game::getInstance()->getFont();
+	font = Gra::getInstance()->getFont();
 
 	if (!XTexture.loadFromFile("Textury/pcCross.png"))
 	{
-		MessageBox(0, "Unable to open pcCross, please call to BartekS0ft", 0, 0);
+		std::cout<<"Nie mozna bylo wczytac pcCross";
 		return;
 	}
 	X.setTexture(XTexture);
@@ -352,7 +352,7 @@ bool tower::shopTemplate::isMouseOn(sf::Vector2f mousePos)
 
 void tower::shopTemplate::addHazeTime()
 {
-	hazeTimer += game::getInstance()->getTimer();
+	hazeTimer += Gra::getInstance()->getTimer();
 }
 
 void tower::shopTemplate::resetTimer()
