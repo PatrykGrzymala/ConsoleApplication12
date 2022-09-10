@@ -161,6 +161,7 @@
     <ClCompile Include="Basehp.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="fpsCounter.cpp" />
+    <ClCompile Include="hpBar.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AAGame.cpp" />
     <ClCompile Include="Gra.cpp" />
@@ -183,6 +184,7 @@
     <ClInclude Include="fpsCounter.h" />
     <ClInclude Include="gameCtrl.h" />
     <ClInclude Include="Gra.h" />
+    <ClInclude Include="hpBar.h" />
     <ClInclude Include="json\json.h" />
     <ClInclude Include="MainGra.h" />
     <ClInclude Include="Menu.h" />
