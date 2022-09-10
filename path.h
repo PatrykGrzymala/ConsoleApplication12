@@ -9,10 +9,7 @@ class path
 
 	std::vector <sf::Vector2f> wayPoints;
 
-
 	void makeUnBuildablePath();
-
-
 
 public:
 	std::queue <sf::Vector2f> waypoints;

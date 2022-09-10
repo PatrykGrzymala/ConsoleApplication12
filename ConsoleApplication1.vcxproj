@@ -160,6 +160,7 @@
     <ClCompile Include="base.cpp" />
     <ClCompile Include="Basehp.cpp" />
     <ClCompile Include="Button.cpp" />
+    <ClCompile Include="effectHandler.cpp" />
     <ClCompile Include="fpsCounter.cpp" />
     <ClCompile Include="hpBar.cpp" />
     <ClCompile Include="main.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="base.h" />
     <ClInclude Include="Basehp.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="effectHandlerh.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="AAGame.h" />
     <ClInclude Include="fpsCounter.h" />
