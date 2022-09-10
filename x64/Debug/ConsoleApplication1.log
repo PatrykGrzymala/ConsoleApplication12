@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (ConsoleApplication1.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  Basehp.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\basehp.h(9): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  Button.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  main.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  Gra.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  MainGra.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  Menu.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  Template.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+  Generowanie kodu...
