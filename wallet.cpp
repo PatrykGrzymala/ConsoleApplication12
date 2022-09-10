@@ -13,7 +13,7 @@ wallet::wallet()
 
 	gold = 100;
 
-	goldText.setFont(*game::getInstance()->getFont());
+	goldText.setFont(*Gra::getInstance()->getFont());
 	goldText.setString(intToString(gold));
 	goldText.setCharacterSize(30);
 	goldText.setColor(sf::Color(30, 40, 30));

@@ -6,7 +6,7 @@
 #include <sstream>
 #include <string>
 #include <stdlib.h>
-#include "Game.h"
+#include "Gra.h"
 
 class Basehp :public sf::Drawable
 {

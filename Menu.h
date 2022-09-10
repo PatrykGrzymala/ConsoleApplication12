@@ -13,7 +13,7 @@ class Menu :public gameCtrl, private Font
 	sf::Text title;
 	menuParticleSystem particleSystem;
 
-	std::vector <button> buttons;
+	std::vector <Button> buttons;
 	void handleButtons();
 
 	int currentButton;

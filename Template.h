@@ -1,8 +1,8 @@
 #pragma once
 
-//#ifndef NOMINMAX
-//#define NOMINMAX
-//#endif // !NOMINMAX
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif // !NOMINMAX
 
 
 #include <Windows.h>
@@ -14,7 +14,7 @@
 #include <memory>
 #include <math.h>
 #include "Button.h"
-#include "Game.h"
+#include "Gra.h"
 #include "Window.h"
 #include <algorithm>
 

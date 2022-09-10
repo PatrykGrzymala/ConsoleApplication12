@@ -162,11 +162,15 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="effectHandler.cpp" />
     <ClCompile Include="fpsCounter.cpp" />
+    <ClCompile Include="gameCompletedScreen.cpp" />
+    <ClCompile Include="gameLoader.cpp" />
+    <ClCompile Include="gameoverScreen.cpp" />
     <ClCompile Include="hpBar.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="AAGame.cpp" />
     <ClCompile Include="Gra.cpp" />
     <ClCompile Include="MainGra.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="monsterEffect.cpp" />
@@ -176,21 +180,27 @@
     <ClCompile Include="Text.cpp" />
     <ClCompile Include="AAWindow.cpp" />
     <ClCompile Include="tower.cpp" />
+    <ClCompile Include="towerManagament.cpp" />
     <ClCompile Include="wallet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />
     <ClInclude Include="Basehp.h" />
+    <ClInclude Include="bbutton.h" />
     <ClInclude Include="Button.h" />
-    <ClInclude Include="effectHandlerh.h" />
+    <ClInclude Include="effectHandler.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="AAGame.h" />
     <ClInclude Include="fpsCounter.h" />
+    <ClInclude Include="gameCompletedScreen.h" />
     <ClInclude Include="gameCtrl.h" />
+    <ClInclude Include="gameLoader.h" />
+    <ClInclude Include="gameoverScreen.h" />
     <ClInclude Include="Gra.h" />
     <ClInclude Include="hpBar.h" />
     <ClInclude Include="json\json.h" />
     <ClInclude Include="MainGra.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="monster.h" />
     <ClInclude Include="monsterEffect.h" />
@@ -200,6 +210,7 @@
     <ClInclude Include="Text.h" />
     <ClInclude Include="AAWindow.h" />
     <ClInclude Include="tower.h" />
+    <ClInclude Include="towerManagement.h" />
     <ClInclude Include="wallet.h" />
     <ClInclude Include="workshop.h" />
   </ItemGroup>

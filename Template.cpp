@@ -1,4 +1,5 @@
 #include "Template.h"
+#include "Gra.h"
 #include <sstream>
 
 std::string intToString(int number)
@@ -38,7 +39,7 @@ sf::Vector2f getMidlePosition(sf::Vector2f pointPos, sf::FloatRect positioningOb
 
 sf::Vector2f getMousePos()
 {
-	return sf::Vector2f(sf::Mouse::getPosition(Game::getInstance()->getWindow()));
+	return sf::Vector2f(sf::Mouse::getPosition(Gra::getInstance()->getWindow()));
 }
 
 bool objectClicked(sf::FloatRect object)

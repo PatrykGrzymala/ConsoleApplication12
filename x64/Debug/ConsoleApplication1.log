@@ -1,48 +1,54 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (ConsoleApplication1.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
   base.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Basehp.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\basehp.h(9): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Button.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  effectHandler.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   fpsCounter.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  gameCompletedScreen.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  gameLoader.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  gameoverScreen.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: "gameCtrl": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2903: "default_delete": symbol nie jest klasą szablon ani funkcją szablon
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C3203: „default_delete”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Dx”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2065: "gameCtrl": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2903: "default_delete": symbol nie jest klasą szablon ani funkcją szablon
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C3203: „default_delete”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Dx”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  hpBar.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   main.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Gra.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   MainGra.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  map.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Menu.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   monster.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  monsterEffect.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  path.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Template.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   tower.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  towerManagament.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  Generowanie kodu...
+  Trwa kompilowanie...
   wallet.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(81): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rect.inl(114): error C2589: "(": niedozwolony token po prawej stronie "::"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(17): fatal error C1083: Nie można otworzyć pliku dołącz: 'Game.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Generowanie kodu...

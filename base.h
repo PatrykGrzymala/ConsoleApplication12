@@ -1,6 +1,6 @@
 #pragma once
 #include "tower.h"
-#include "buffTower.h"
+//#include "buffTower.h"
 class base :public tower
 {
 	void loadTexture();
@@ -19,7 +19,7 @@ public:
 	tower::shopTemplate *getShopTemplate() override;
 	std::shared_ptr<tower> getClassObject();
 	bool mouseOnHUD(const sf::Vector2f mousePos);
-	void addBuff(buff buffer) override;
+	//void addBuff(buff buffer) override;
 
 	class workshopHandler;
 };

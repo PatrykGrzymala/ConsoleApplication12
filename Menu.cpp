@@ -6,7 +6,7 @@
 Menu::Menu()
 {
 
-	sf::Music *mainMenuMusic = game::getInstance()->getMusic();
+	sf::Music *mainMenuMusic = Gra::getInstance()->getMusic();
 
 	if (mainMenuMusic->getStatus() == sf::Music::Stopped)
 		mainMenuMusic->play();
@@ -17,13 +17,13 @@ Menu::Menu()
 	title.setString("Tower Defense 1.0 by Monf");
 	title.setPosition(WIDTH / 2 - title.getGlobalBounds().width / 2, HEIGHT * 1 / 4);
 
-	buttons.push_back(button());
+	buttons.push_back(Button());
 	buttons[0].setFont(font);
 	buttons[0].setString("Start Game !");
 	buttons[0].setCharacterSize(50);
 	buttons[0].setPosition(WIDTH / 2 - buttons[0].getGlobalBounds().width / 2, HEIGHT * 1 / 2);
 
-	buttons.push_back(button());
+	buttons.push_back(Button());
 	buttons[1].setFont(font);
 	buttons[1].setString("Exit Game");
 	buttons[1].setCharacterSize(50);
@@ -104,7 +104,7 @@ void Menu::followFunc(int index)
 {
 	switch (index)
 	{
-	case 0: game::getInstance()->setController(std::make_unique<ChooseLevel>()); break;
-	case 1: game::getInstance()->exit(); break;
+	case 0: Gra::getInstance()->setController(std::make_unique<ChooseLevel>()); break;
+	case 1: Gra::getInstance()->exit(); break;
 	}
 }

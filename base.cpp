@@ -79,9 +79,9 @@ bool base::mouseOnHUD(const sf::Vector2f mousePos)
 	return false;
 }
 
-void base::addBuff(buff buffer)
+/*void base::addBuff(buff buffer)
 {
-}
+}*/
 
 base::workshopHandler::workshopHandler(base * ownr)
 {
