@@ -4,6 +4,8 @@
 #define NOMINMAX
 #endif // !NOMINMAX
 
+#define WIDTH 1200
+#define HEIGHT 1000
 
 #include <Windows.h>
 #include <SFML\Graphics.hpp>
@@ -32,7 +34,7 @@ void print(std::string cap, T t)
 
 std::string intToString(int number);
 std::string floatToString(float number);
-Window* GetWindow();
+Window* Create();
 
 sf::Vector2f getMiddlePosition(sf::FloatRect pointObject, sf::FloatRect positioningObject);
 sf::Vector2f getMidlePosition(sf::Vector2f pointPos, sf::FloatRect positioningObject);

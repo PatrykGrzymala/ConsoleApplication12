@@ -1,9 +1,10 @@
-/*
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
-class Window {
+
+class Window
+{
 public:
 	Window();
 	Window(const std::string& l_title, const sf::Vector2u& l_size);
@@ -34,4 +35,3 @@ private:
 	bool m_isFullscreeen;
 };
 
-*/

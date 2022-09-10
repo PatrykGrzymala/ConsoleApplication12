@@ -1,4 +1,4 @@
-/*
+
 #include "Window.h"
 
 Window::Window()
@@ -80,5 +80,5 @@ void Window::Draw(sf::Drawable&l_drawable) {
 	m_window.draw(l_drawable);
 }
 
-*/
+
 

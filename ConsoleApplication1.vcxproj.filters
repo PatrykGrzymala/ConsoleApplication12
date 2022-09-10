@@ -33,9 +33,6 @@
     <ClCompile Include="AAGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AAWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -90,6 +87,33 @@
     <ClCompile Include="towerManagament.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="levelInterlude.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textureCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menuParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="healIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="upgradeImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TileMap.h">
@@ -111,9 +135,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AAGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AAWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Menu.h">
@@ -177,6 +198,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="towerManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="levelInterlude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textureCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menuParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="healIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="upgradeImage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

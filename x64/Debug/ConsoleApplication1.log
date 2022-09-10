@@ -1,18 +1,30 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (ConsoleApplication1.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
   base.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
   Basehp.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  bbutton.cpp
   Button.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   effectHandler.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C3646: "effects": nieznany specyfikator przesłonięcia
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2143: błąd składniowy: brakuje „;” przed „&”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
   fpsCounter.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\fpscounter.cpp(16): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
   gameCompletedScreen.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   gameLoader.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   gameoverScreen.cpp
 c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: "gameCtrl": niezadeklarowany identyfikator
 c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
@@ -22,33 +34,370 @@ c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(4
 c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
 c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2903: "default_delete": symbol nie jest klasą szablon ani funkcją szablon
 c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C3203: „default_delete”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Dx”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(22): error C2039: „setFont”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(23): error C2039: „setCharacterSize”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(24): error C2039: „setString”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(25): error C2039: „setColor”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: „setPosition”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: „getGlobalBounds”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2660: "getMidlePosition": funkcja nie przyjmuje 1 argumentów
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(40): note: zobacz deklarację „getMidlePosition”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(35): error C2065: "particleSystem": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(39): error C2039: „getGlobalBounds”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(41): error C2039: „isIncreased”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(43): error C2039: „increase”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): error C2664: „void Gra::setController(std::unique_ptr)”: nie można dokonać konwersji argumentu 1 z „std::unique_ptr<Menu,std::default_delete<_Ty>>” do „std::unique_ptr”
+          with
+          [
+              _Ty=Menu
+          ]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(52): error C2039: „getGlobalBounds”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(54): error C2039: „isIncreased”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(56): error C2039: „decrease”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): error C2664: „void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)”: nie można dokonać konwersji argumentu 1 z „Button” do „const sf::Drawable &”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Przyczyna: nie można skonwertować z "Button" na "const sf::Drawable"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: "particleSystem": niezadeklarowany identyfikator
+  healIcon.cpp
   hpBar.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+  levelInterlude.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\levelinterlude.cpp(10): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
   main.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   Gra.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
   MainGra.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: „base::workshopHandler::join”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(63): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(72): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(134): error C4996: 'sf::RenderWindow::capture': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp(158): note: zobacz deklarację „sf::RenderWindow::capture”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(294): error C2248: "map::texture": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(10): note: zobacz deklarację „map::texture”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(299): error C2248: "map::background": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(11): note: zobacz deklarację „map::background”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(299): error C2248: "map::texture": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(10): note: zobacz deklarację „map::texture”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(327): error C2248: "path::wayPoints": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "path"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(10): note: zobacz deklarację „path::wayPoints”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(5): note: zobacz deklarację „path”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(336): error C2248: "path::makeUnBuildablePath": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "path"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(12): note: zobacz deklarację „path::makeUnBuildablePath”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(5): note: zobacz deklarację „path”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(288): error C4996: 'Json::Reader::getFormatedErrorMessages': Use getFormattedErrorMessages() instead.
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\json\reader.h(111): note: zobacz deklarację „Json::Reader::getFormatedErrorMessages”
   map.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C3646: "Map": nieznany specyfikator przesłonięcia
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
   Menu.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\menu.cpp(4): fatal error C1083: Nie można otworzyć pliku dołącz: 'ChooseLevel.h': No such file or directory
+  menuParticleSystem.cpp
   monster.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(258): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(258): error C3861: "getInstance": identyfikatora nie odnaleziono
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(260): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(260): error C3861: "getInstance": identyfikatora nie odnaleziono
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(288): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(288): error C3861: "getInstance": identyfikatora nie odnaleziono
   monsterEffect.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
-  path.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
-  Template.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
-  tower.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
-  towerManagament.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2065: "monsterEffect": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
   Generowanie kodu...
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(16): error C4716: "isMouseOn": musi zwracać wartość
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(26): error C4716: "isClickOn": musi zwracać wartość
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(21): error C4716: "isIncreased": musi zwracać wartość
   Trwa kompilowanie...
+  path.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C3646: "levelPath": nieznany specyfikator przesłonięcia
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+  pause.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): error C2664: „void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)”: nie można dokonać konwersji argumentu 1 z „const Button” do „const sf::Drawable &”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: Przyczyna: nie można skonwertować z "const Button" na "const sf::Drawable"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(61): error C2039: „isClickOn”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(98): error C2039: „setString”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(99): error C2039: „setString”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(100): error C2039: „setString”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(101): error C2039: „setString”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(109): error C2039: „setFont”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(110): error C2039: „setCharacterSize”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(111): error C2039: „setColor”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(114): error C2039: „getGlobalBounds”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(116): error C2039: „getGlobalBounds”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(118): error C2039: „setPosition”: Nie jest składową „Button”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
+  Template.cpp
+  textureCache.cpp
+  upgradeImage.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\upgradeimage.cpp(24): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+  wave.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2065: "wave": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2923: "std::vector": "wave" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2903: "allocator": symbol nie jest klasą szablon ani funkcją szablon
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C3203: „allocator”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Alloc”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2065: "wave": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2059: błąd składniowy: „>”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2065: "wave": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2059: błąd składniowy: „>”
+  Window.cpp
+  tower.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(322): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(324): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(312): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+  towerManagament.cpp
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C2065: "tower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(21): error C2065: "tower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(21): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2065: "tower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(25): error C2061: błąd składniowy: identyfikator „tower”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: "towerHandler": nieznany specyfikator przesłonięcia
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: "tower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(97): error C2440: "inicjowanie": nie można konwertować z "std::shared_ptr<arcaneTower>" na "std::shared_ptr<tower>"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(97): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2065: "archerTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2065: "cannonTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2065: "poisonTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2065: "iceTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2065: "crossbowTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2065: "magmaTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2065: "darkTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2065: "lightingTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2065: "electricTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2065: "deathTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2065: "laserTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2065: "antennaTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2065: "signalTower": niezadeklarowany identyfikator
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(226): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(231): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(237): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(241): error C2664: „void map::buildTower(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): error C2678: dwuargumentowy "!=": nie znaleziono żadnego operatora, który przyjmuje lewostronny operand typu "std::shared_ptr<tower>" (lub nie istnieje akceptowalna konwersja)
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(197): note: może to być „bool operator !=(const GUID &,const GUID &)”
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\time.hpp(173): note: lub       „bool sf::operator !=(sf::Time,sf::Time)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(336): note: lub       „bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(341): note: lub       „bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(346): note: lub       „bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(291): note: lub       „bool std::operator !=(const std::error_code &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(296): note: lub       „bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(301): note: lub       „bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(306): note: lub       „bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\string.hpp(552): note: lub       „bool sf::operator !=(const sf::String &,const sf::String &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\window\videomode.hpp(129): note: lub       „bool sf::operator !=(const sf::VideoMode &,const sf::VideoMode &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\blendmode.hpp(145): note: lub       „bool sf::operator !=(const sf::BlendMode &,const sf::BlendMode &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\transform.hpp(433): note: lub       „bool sf::operator !=(const sf::Transform &,const sf::Transform &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\color.hpp(128): note: lub       „bool sf::operator !=(const sf::Color &,const sf::Color &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1656): note: lub       "bool std::operator !=<tower>(const std::shared_ptr<tower> &,std::nullptr_t) noexcept"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: lub       "wbudowany operator!=(bool, _Ty) języka C++"
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: podczas próby dopasowania listy argumentów "(std::shared_ptr<tower>, _Ty)"
+          with
+          [
+              _Ty=int
+          ]
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): error C2679: dwuargumentowy "=": nie znaleziono żadnego operatora, który przyjmuje prawostronny operand typu "_Ty" (lub nie istnieje akceptowalna konwersja)
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1419): note: może to być „std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(std::shared_ptr<tower> &&) noexcept”
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1406): note: lub       "std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(const std::shared_ptr<tower> &) noexcept"
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): note: podczas próby dopasowania listy argumentów "(std::shared_ptr<tower>, _Ty)"
+          with
+          [
+              _Ty=int
+          ]
   wallet.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(18): fatal error C1083: Nie można otworzyć pliku dołącz: 'Window.h': No such file or directory
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\wallet.cpp(19): error C4996: 'sf::Text::setColor': został uznany za przestarzały
+  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
   Generowanie kodu...

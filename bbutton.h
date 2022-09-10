@@ -3,13 +3,13 @@
 
 enum Type { SMALL, MEDIUM, LARGE };
 
-class button :public sf::Text
+class bbutton :public sf::Text
 {
 	bool isBoosted;
 
 public:
-	button(Type type = MEDIUM, sf::Vector2f position = sf::Vector2f(0.f, 0.f), std::string caption = "Captio");
-	~button() {};
+	bbutton(Type type = MEDIUM, sf::Vector2f position = sf::Vector2f(0.f, 0.f), std::string caption = "Captio");
+	~bbutton() {};
 	Type size;
 
 	void increase();
