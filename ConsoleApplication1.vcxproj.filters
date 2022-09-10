@@ -114,6 +114,33 @@
     <ClCompile Include="upgradeImage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="attackTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="straightBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="archerTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iceTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="laserTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightingTower .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="workshop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poisonTower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TileMap.h">
@@ -222,6 +249,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="upgradeImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attackTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="straightBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archerTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iceTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="laserTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lightingTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poisonTower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
