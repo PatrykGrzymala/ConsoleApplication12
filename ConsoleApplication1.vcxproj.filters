@@ -66,6 +66,9 @@
     <ClCompile Include="hpBar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="monsterEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TileMap.h">
@@ -126,6 +129,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hpBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monsterEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
