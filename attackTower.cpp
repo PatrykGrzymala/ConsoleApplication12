@@ -400,7 +400,7 @@ void attackTower::workshopHandler::place()
 
 	power.setFont(*font);
 	power.setCharacterSize(30);
-	power.setColor(sf::Color::Red);
+	power.setFillColor(sf::Color::Red);
 	sf::Vector2f powerPos;
 	powerPos.x = wsPos.x + wsSize.x / 10;
 	powerPos.y = wsPos.y + wsSize.y / 2 - power.getGlobalBounds().height * 3 / 4;
@@ -408,7 +408,7 @@ void attackTower::workshopHandler::place()
 
 	powerBuff.setFont(*font);
 	powerBuff.setCharacterSize(18);
-	powerBuff.setColor(sf::Color(20, 255, 20));
+	powerBuff.setFillColor(sf::Color(20, 255, 20));
 	sf::Vector2f powerBuffPos;
 	powerBuffPos.x = power.getPosition().x + power.getGlobalBounds().width + 3.f;
 	powerBuffPos.y = power.getPosition().y + power.getGlobalBounds().height / 2 - powerBuff.getGlobalBounds().height / 3;
@@ -416,7 +416,7 @@ void attackTower::workshopHandler::place()
 
 	range.setFont(*font);
 	range.setCharacterSize(30);
-	range.setColor(sf::Color::Red);
+	range.setFillColor(sf::Color::Red);
 	sf::Vector2f rangePos;
 	rangePos.x = wsPos.x + wsSize.x * 2 / 5;
 	rangePos.y = wsPos.y + wsSize.y / 2 - range.getGlobalBounds().height * 3 / 4;
@@ -592,17 +592,17 @@ attackTower::shopTemplate::shopTemplate(attackTower * ownr)
 
 	cost.setString("cost=" + intToString(owner->cost));
 	cost.setCharacterSize(charSize);
-	cost.setColor(sf::Color(240, 24, 24));
+	cost.setFillColor(sf::Color(240, 24, 24));
 
 	power.setFont(*font);
 	power.setString("power=" + intToString(owner->power));
 	power.setCharacterSize(charSize);
-	power.setColor(sf::Color(240, 24, 24));
+	power.setFillColor(sf::Color(240, 24, 24));
 
 	range.setFont(*font);
 	range.setString("range=" + floatToString(owner->range));
 	range.setCharacterSize(charSize);
-	range.setColor(sf::Color(240, 24, 24));
+	range.setFillColor(sf::Color(240, 24, 24));
 
 }
 

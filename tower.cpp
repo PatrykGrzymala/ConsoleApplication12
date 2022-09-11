@@ -309,7 +309,7 @@ void tower::shopTemplate::setDescription()
 	sf::Text text;
 	text.setCharacterSize(14);
 	text.setFont(*font);
-	text.setColor(sf::Color::Black);
+	text.setFillColor(sf::Color::Black);
 	float hazeXCenter = textHaze.getPosition().x + textHaze.getGlobalBounds().width / 2 - 8.f;
 
 	int cache = 0;

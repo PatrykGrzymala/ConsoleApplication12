@@ -2,7 +2,7 @@
 #include "Menu.h"
 #include "Gra.h"
 #include "ChooseLevel.h"
-
+#include "bbutton.h"
 Menu::Menu()
 {
 
@@ -12,7 +12,7 @@ Menu::Menu()
 		mainMenuMusic->play();
 
 	title.setFont(font);
-	title.setColor(sf::Color::Blue);
+	title.setFillColor(sf::Color::Blue);
 	title.setCharacterSize(70);
 	title.setString("Tower Defense 1.0 by Monf");
 	title.setPosition(WIDTH / 2 - title.getGlobalBounds().width / 2, HEIGHT * 1 / 4);

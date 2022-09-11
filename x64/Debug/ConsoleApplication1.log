@@ -1,403 +1,987 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (ConsoleApplication1.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  archerTower.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\archertower.cpp(20): error C2039: 'rotate': is not a member of 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\archertower.cpp(21): error C2039: 'update': is not a member of 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+  attackTower.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(55): error C2039: 'getMap': is not a member of 'Gra'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(8): note: see declaration of 'Gra'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(183): error C2039: 'update': is not a member of 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): error C2678: binary '==': no operator found which takes a left-hand operand of type 'bullet' (or there is no acceptable conversion)
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(192): note: could be 'bool operator ==(const GUID &,const GUID &)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): note: while trying to match the argument list '(bullet, _Ty)'
+          with
+          [
+              _Ty=bullet
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from 'const _Ty' to 'const sf::Drawable &'
+          with
+          [
+              _Ty=bullet
+          ]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): note: Reason: cannot convert from 'const _Ty' to 'const sf::Drawable'
+          with
+          [
+              _Ty=bullet
+          ]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(427): error C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(435): error C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(443): error C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
   base.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   Basehp.cpp
   bbutton.cpp
+  bullet.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2061: syntax error: identifier 'Vector2f'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C3646: 'newPos': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2143: syntax error: missing ';' before '&'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(39): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(39): error C2061: syntax error: identifier 'RenderWindow'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(44): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(44): error C2061: syntax error: identifier 'Vector2f'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C2653: 'sf': is not a class or namespace name
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C3646: 'bullets': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): error C2065: 'window': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(46): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(46): error C2065: 'newPos': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2511: 'bullet::bullet(sf::Vector2f)': overloaded member function not found in 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(6): error C2065: 'bullets': undeclared identifier
   Button.cpp
+  ChooseLevel.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C3646: 'buttonBack': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(38): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(110): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(111): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(112): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(113): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): error C2665: 'sf::Vector2<float>::Vector2': none of the 4 overloads could convert all the argument types
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(77): note: could be 'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(77): note: or       'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(56): note: or       'sf::Vector2<float>::Vector2(T,T)'
+          with
+          [
+              T=float
+          ]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(47): note: or       'sf::Vector2<float>::Vector2(void)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): note: while trying to match the argument list '(float)'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(115): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(122): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(124): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(127): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(132): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(134): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(135): error C2065: 'buttonBack': undeclared identifier
   effectHandler.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C3646: "effects": nieznany specyfikator przesłonięcia
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2143: błąd składniowy: brakuje „;” przed „&”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C3646: 'effects': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2143: syntax error: missing ';' before '&'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   fpsCounter.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\fpscounter.cpp(16): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
-  gameCompletedScreen.cpp
-  gameLoader.cpp
   gameoverScreen.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: "gameCtrl": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2903: "default_delete": symbol nie jest klasą szablon ani funkcją szablon
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C3203: „default_delete”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Dx”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2065: "gameCtrl": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2923: "std::unique_ptr": "gameCtrl" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2903: "default_delete": symbol nie jest klasą szablon ani funkcją szablon
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C3203: „default_delete”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Dx”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(22): error C2039: „setFont”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(23): error C2039: „setCharacterSize”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(24): error C2039: „setString”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(25): error C2039: „setColor”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: „setPosition”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: „getGlobalBounds”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2660: "getMidlePosition": funkcja nie przyjmuje 1 argumentów
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\template.h(40): note: zobacz deklarację „getMidlePosition”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(35): error C2065: "particleSystem": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(39): error C2039: „getGlobalBounds”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(41): error C2039: „isIncreased”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(43): error C2039: „increase”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): error C2664: „void Gra::setController(std::unique_ptr)”: nie można dokonać konwersji argumentu 1 z „std::unique_ptr<Menu,std::default_delete<_Ty>>” do „std::unique_ptr”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: 'gameCtrl': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: 'std::unique_ptr': 'gameCtrl' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2903: 'default_delete': symbol is neither a class template nor a function template
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C3203: 'default_delete': unspecialized class template can't be used as a template argument for template parameter '_Dx', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2065: 'gameCtrl': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2923: 'std::unique_ptr': 'gameCtrl' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2903: 'default_delete': symbol is neither a class template nor a function template
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C3203: 'default_delete': unspecialized class template can't be used as a template argument for template parameter '_Dx', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(22): error C2039: 'setFont': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(23): error C2039: 'setCharacterSize': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(24): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(25): error C2039: 'setFillColor': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: 'setPosition': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2660: 'getMidlePosition': function does not take 1 arguments
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\template.h(40): note: see declaration of 'getMidlePosition'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(35): error C2065: 'particleSystem': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(39): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(41): error C2039: 'isIncreased': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(43): error C2039: 'increase': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): error C2664: 'void Gra::setController(std::unique_ptr)': cannot convert argument 1 from 'std::unique_ptr<Menu,std::default_delete<_Ty>>' to 'std::unique_ptr'
           with
           [
               _Ty=Menu
           ]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(52): error C2039: „getGlobalBounds”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(54): error C2039: „isIncreased”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(56): error C2039: „decrease”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): error C2664: „void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)”: nie można dokonać konwersji argumentu 1 z „Button” do „const sf::Drawable &”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Przyczyna: nie można skonwertować z "Button" na "const sf::Drawable"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: "particleSystem": niezadeklarowany identyfikator
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(52): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(54): error C2039: 'isIncreased': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(56): error C2039: 'decrease': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from 'Button' to 'const sf::Drawable &'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Reason: cannot convert from 'Button' to 'const sf::Drawable'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: 'particleSystem': undeclared identifier
   healIcon.cpp
-  hpBar.cpp
+  iceTower.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(53): error C2039: 'update': is not a member of 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
+  laserTower.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   levelInterlude.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\levelinterlude.cpp(10): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+  lightingTower .cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   main.cpp
-  Gra.cpp
   MainGra.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: „base::workshopHandler::join”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(63): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(72): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(134): error C4996: 'sf::RenderWindow::capture': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp(158): note: zobacz deklarację „sf::RenderWindow::capture”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(294): error C2248: "map::texture": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(10): note: zobacz deklarację „map::texture”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(299): error C2248: "map::background": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(11): note: zobacz deklarację „map::background”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(299): error C2248: "map::texture": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "map"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(10): note: zobacz deklarację „map::texture”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(5): note: zobacz deklarację „map”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(327): error C2248: "path::wayPoints": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "path"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(10): note: zobacz deklarację „path::wayPoints”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(5): note: zobacz deklarację „path”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(336): error C2248: "path::makeUnBuildablePath": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "path"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(12): note: zobacz deklarację „path::makeUnBuildablePath”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\path.h(5): note: zobacz deklarację „path”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(288): error C4996: 'Json::Reader::getFormatedErrorMessages': Use getFormattedErrorMessages() instead.
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\json\reader.h(111): note: zobacz deklarację „Json::Reader::getFormatedErrorMessages”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(134): error C4996: 'sf::RenderWindow::capture': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp(158): note: see declaration of 'sf::RenderWindow::capture'
   map.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C3646: "Map": nieznany specyfikator przesłonięcia
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C3646: 'Map': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2238: unexpected token(s) preceding ';'
   Menu.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\menu.cpp(4): fatal error C1083: Nie można otworzyć pliku dołącz: 'ChooseLevel.h': No such file or directory
-  menuParticleSystem.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C3646: 'buttonBack': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(21): error C2039: 'setFont': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(22): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(23): error C2039: 'setCharacterSize': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(24): error C2039: 'setPosition': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(24): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(27): error C2039: 'setFont': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(28): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(29): error C2039: 'setCharacterSize': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(30): error C2039: 'setPosition': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(30): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(34): error C2039: 'increase': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(54): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from '_Ty' to 'const sf::Drawable &'
+          with
+          [
+              _Ty=Button
+          ]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(54): note: Reason: cannot convert from '_Ty' to 'const sf::Drawable'
+          with
+          [
+              _Ty=Button
+          ]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(54): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(65): error C2039: 'decrease': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(67): error C2039: 'increase': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(74): error C2039: 'decrease': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(76): error C2039: 'increase': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(88): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(96): error C2039: 'decrease': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(98): error C2039: 'increase': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+  Generating Code...
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(16): error C4716: 'isMouseOn': must return a value
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(26): error C4716: 'isClickOn': must return a value
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(21): error C4716: 'isIncreased': must return a value
+  Compiling...
   monster.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(258): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(258): error C3861: "getInstance": identyfikatora nie odnaleziono
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(260): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(260): error C3861: "getInstance": identyfikatora nie odnaleziono
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(288): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "mainGame"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(7): note: zobacz deklarację „mainGame”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\monster.cpp(288): error C3861: "getInstance": identyfikatora nie odnaleziono
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   monsterEffect.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2065: "monsterEffect": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2923: "std::shared_ptr": "monsterEffect" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-  Generowanie kodu...
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(16): error C4716: "isMouseOn": musi zwracać wartość
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(26): error C4716: "isClickOn": musi zwracać wartość
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(21): error C4716: "isIncreased": musi zwracać wartość
-  Trwa kompilowanie...
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(11): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(12): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(13): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(19): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(22): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2065: 'monsterEffect': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   path.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C3646: "levelPath": nieznany specyfikator przesłonięcia
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C3646: 'levelPath': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   pause.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): error C2664: „void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)”: nie można dokonać konwersji argumentu 1 z „const Button” do „const sf::Drawable &”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: Przyczyna: nie można skonwertować z "const Button" na "const sf::Drawable"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(61): error C2039: „isClickOn”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(98): error C2039: „setString”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(99): error C2039: „setString”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(100): error C2039: „setString”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(101): error C2039: „setString”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(109): error C2039: „setFont”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(110): error C2039: „setCharacterSize”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(111): error C2039: „setColor”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(114): error C2039: „getGlobalBounds”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(116): error C2039: „getGlobalBounds”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\pause.cpp(118): error C2039: „setPosition”: Nie jest składową „Button”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: zobacz deklarację „Button”
-  Template.cpp
-  textureCache.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from 'const Button' to 'const sf::Drawable &'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: Reason: cannot convert from 'const Button' to 'const sf::Drawable'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(50): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(61): error C2039: 'isClickOn': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(98): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(99): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(100): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(101): error C2039: 'setString': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(109): error C2039: 'setFont': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(110): error C2039: 'setCharacterSize': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(111): error C2039: 'setColor': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(114): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(116): error C2039: 'getGlobalBounds': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(118): error C2039: 'setPosition': is not a member of 'Button'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+  poisonTower.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\poisontower.cpp(41): error C2039: 'update': is not a member of 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
+  straightBullet.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(6): error C2614: 'straightBullet': illegal member initialization: 'bullet' is not a base or member
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(8): error C3861: 'getGlobalBounds': identifier not found
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(9): error C2065: 'sprite': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(18): error C2065: 'sprite': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(34): error C2065: 'sprite': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(46): error C3861: 'getCenter': identifier not found
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(47): error C3861: 'getCenter': identifier not found
   upgradeImage.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\upgradeimage.cpp(24): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\upgradeimage.cpp(24): error C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
   wave.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2065: "wave": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2923: "std::vector": "wave" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2903: "allocator": symbol nie jest klasą szablon ani funkcją szablon
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C3203: „allocator”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Alloc”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2065: "wave": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2059: błąd składniowy: „>”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2065: "wave": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2059: błąd składniowy: „>”
-  Window.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2065: 'wave': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2923: 'std::vector': 'wave' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2065: 'wave': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(23): error C2059: syntax error: '>'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2065: 'wave': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2059: syntax error: '>'
   tower.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(322): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(324): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.cpp(312): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(322): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(324): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   towerManagament.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C2065: "tower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(17): error C3203: „shared_ptr”: klasy niespecjalizowanej klasa szablon nie można użyć jako argumentu szablon dla parametru szablon „_Ty”, oczekiwano typu rzeczywistego
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(21): error C2065: "tower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(21): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2065: "tower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\map.h(25): error C2061: błąd składniowy: identyfikator „tower”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: "towerHandler": nieznany specyfikator przesłonięcia
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: "tower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: "std::shared_ptr": "tower" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(97): error C2440: "inicjowanie": nie można konwertować z "std::shared_ptr<arcaneTower>" na "std::shared_ptr<tower>"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(97): note: Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2065: "archerTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(98): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2065: "cannonTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(99): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2065: "poisonTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(100): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2065: "iceTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(101): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2065: "crossbowTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(102): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2065: "magmaTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(103): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2065: "darkTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(104): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2065: "lightingTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(105): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2065: "electricTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(106): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2065: "deathTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(107): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2065: "laserTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(108): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2065: "antennaTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(109): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2065: "signalTower": niezadeklarowany identyfikator
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2672: „std::make_shared”: nie znaleziono zgodnej przeciążonej funkcji
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(110): error C2974: "std::make_shared": nieprawidłowy argument szablon dla "_Ty", oczekiwano typu
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1864): note: zobacz deklarację „std::make_shared”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(226): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(231): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(237): error C2664: „bool map::canTowerBuild(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(241): error C2664: „void map::buildTower(std::shared_ptr &)”: nie można dokonać konwersji argumentu 1 z „std::shared_ptr<tower>” do „std::shared_ptr &”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): error C2678: dwuargumentowy "!=": nie znaleziono żadnego operatora, który przyjmuje lewostronny operand typu "std::shared_ptr<tower>" (lub nie istnieje akceptowalna konwersja)
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(197): note: może to być „bool operator !=(const GUID &,const GUID &)”
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\time.hpp(173): note: lub       „bool sf::operator !=(sf::Time,sf::Time)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(336): note: lub       „bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(341): note: lub       „bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\exception(346): note: lub       „bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(291): note: lub       „bool std::operator !=(const std::error_code &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(296): note: lub       „bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(301): note: lub       „bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\system_error(306): note: lub       „bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\string.hpp(552): note: lub       „bool sf::operator !=(const sf::String &,const sf::String &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\window\videomode.hpp(129): note: lub       „bool sf::operator !=(const sf::VideoMode &,const sf::VideoMode &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\blendmode.hpp(145): note: lub       „bool sf::operator !=(const sf::BlendMode &,const sf::BlendMode &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\transform.hpp(433): note: lub       „bool sf::operator !=(const sf::Transform &,const sf::Transform &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\color.hpp(128): note: lub       „bool sf::operator !=(const sf::Color &,const sf::Color &)” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1656): note: lub       "bool std::operator !=<tower>(const std::shared_ptr<tower> &,std::nullptr_t) noexcept"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: lub       "wbudowany operator!=(bool, _Ty) języka C++"
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2061: syntax error: identifier 'tower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: 'towerHandler': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.h(110): error C3668: 'attackTower::workshopHandler::join': method with override specifier 'override' did not override any base class methods
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(226): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(231): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(237): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(241): error C2664: 'void map::buildTower(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::shared_ptr<tower>' (or there is no acceptable conversion)
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\time.hpp(173): note: or       'bool sf::operator !=(sf::Time,sf::Time)' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(306): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\string.hpp(552): note: or       'bool sf::operator !=(const sf::String &,const sf::String &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\window\videomode.hpp(129): note: or       'bool sf::operator !=(const sf::VideoMode &,const sf::VideoMode &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\blendmode.hpp(145): note: or       'bool sf::operator !=(const sf::BlendMode &,const sf::BlendMode &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\transform.hpp(433): note: or       'bool sf::operator !=(const sf::Transform &,const sf::Transform &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\color.hpp(128): note: or       'bool sf::operator !=(const sf::Color &,const sf::Color &)' [found using argument-dependent lookup]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1656): note: or       'bool std::operator !=<tower>(const std::shared_ptr<tower> &,std::nullptr_t) noexcept'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: or       'built-in C++ operator!=(bool, _Ty)'
           with
           [
               _Ty=int
           ]
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: podczas próby dopasowania listy argumentów "(std::shared_ptr<tower>, _Ty)"
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: while trying to match the argument list '(std::shared_ptr<tower>, _Ty)'
           with
           [
               _Ty=int
           ]
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): error C2679: dwuargumentowy "=": nie znaleziono żadnego operatora, który przyjmuje prawostronny operand typu "_Ty" (lub nie istnieje akceptowalna konwersja)
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): error C2679: binary '=': no operator found which takes a right-hand operand of type '_Ty' (or there is no acceptable conversion)
           with
           [
               _Ty=int
           ]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1419): note: może to być „std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(std::shared_ptr<tower> &&) noexcept”
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1406): note: lub       "std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(const std::shared_ptr<tower> &) noexcept"
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): note: podczas próby dopasowania listy argumentów "(std::shared_ptr<tower>, _Ty)"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1419): note: could be 'std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(std::shared_ptr<tower> &&) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1406): note: or       'std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(const std::shared_ptr<tower> &) noexcept'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): note: while trying to match the argument list '(std::shared_ptr<tower>, _Ty)'
           with
           [
               _Ty=int
           ]
   wallet.cpp
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: błąd składniowy: identyfikator „workshop”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: błąd składniowy: brakuje „;” przed „*”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(7): error C2011: "Window'': "class" wpisz ponownie definicję
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\window.h(6): note: zobacz deklarację „Window”
-c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\wallet.cpp(19): error C4996: 'sf::Text::setColor': został uznany za przestarzały
-  c:\users\p.grzymala\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: zobacz deklarację „sf::Text::setColor”
-  Generowanie kodu...
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\wallet.cpp(19): error C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
+  workshop.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(12): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(12): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(12): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(20): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(20): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(22): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(22): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(38): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2061: syntax error: identifier 'tower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: 'towerHandler': unknown override specifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: 'tower': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(97): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): error C2061: syntax error: identifier 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\workshop.cpp(52): error C2660: 'tower::workshopHandler::join': function does not take 1 arguments
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): note: see declaration of 'tower::workshopHandler::join'
+  Generating Code...

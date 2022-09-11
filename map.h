@@ -4,11 +4,10 @@
 #include "towerManagement.h"
 class map :public sf::Drawable, public sf::Transformable
 {
-	friend class mainGame;
+	friend class MainGra;
 	friend class towerManagament;
 
-	sf::Texture texture;
-	sf::Sprite background;
+	
 
 
 public:
@@ -25,4 +24,6 @@ public:
 	void sellTower(tower* sellingTower);
 
 	sf::FloatRect getBackgroundBounds();
+	sf::Texture texture;
+	sf::Sprite background;
 };

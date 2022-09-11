@@ -4,8 +4,12 @@ class bullet
 {
 	bullet(sf::Vector2f size)
 	{
+
 	}
 	~bullet();
+	sf::Vector2f newPos;
+	sf::RenderWindow& window;
+	int speed;
 
 	void fire(int speed)
 	{

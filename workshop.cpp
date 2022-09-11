@@ -88,7 +88,7 @@ void workshop::setTexts()
 	caption.setFont(*font);
 	caption.setString("WORKSHOP");
 	caption.setCharacterSize(70);
-	caption.setColor(sf::Color(150, 20, 250));
+	caption.setFillColor(sf::Color(150, 20, 250));
 	sf::Vector2f captionPos = getMiddlePosition(background.getGlobalBounds(), caption.getGlobalBounds());
 	captionPos.y -= 15.f;
 	caption.setPosition(captionPos);

@@ -255,9 +255,9 @@ void monster::findNewWaypoint()
 
 	if (wentInBase())
 	{
-		mainGame::getInstance()->subtractLife(owner->monsterDamage);
+		MainGra::getInstance()->subtractLife(owner->monsterDamage);
 		int random = rand() % 3 + 1;
-		mainGame::getInstance()->getWallet()->deposit(goldWorth * random / 4);
+		MainGra::getInstance()->getWallet()->deposit(goldWorth * random / 4);
 		return owner->removeMonster(this);
 	}
 
@@ -285,7 +285,7 @@ void monster::activate()
 
 void monster::die()
 {
-	mainGame::getInstance()->getWallet()->deposit(goldWorth);
+	MainGra::getInstance()->getWallet()->deposit(goldWorth);
 	dead = true;
 	owner->removeMonster(this);
 }

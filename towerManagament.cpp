@@ -2,22 +2,22 @@
 #include "towerManagement.h"
 #include "MainGra.h"
 
-/*towers
-#include "arcaneTower.hpp"
-#include "archerTower.hpp"
-#include "cannonTower.hpp"
-#include "darkTower.hpp"
-#include "magmaTower.hpp"
-#include "electricTower.hpp"
-#include "poisonTower.hpp"
-#include "crossbowTower.hpp"
-#include "lightingTower.hpp"
-#include "iceTower.hpp"
-#include "deathTower.hpp"
-#include "laserTower.hpp"
-#include "antennaTower.hpp"
-#include "signalTower.hpp"
-*/
+
+//#include "arcaneTower.hpp"
+#include "archerTower.h"
+//#include "cannonTower.hpp"
+//#include "darkTower.hpp"
+//#include "magmaTower.hpp"
+//#include "electricTower.hpp"
+#include "poisonTower.h"
+//#include "crossbowTower.hpp"
+#include "lightingTower.h"
+#include "iceTower.h"
+//#include "deathTower.hpp"
+#include "laserTower.h"
+//#include "antennaTower.hpp"
+//#include "signalTower.hpp"
+
 towerManagament::towerManagament(workshop *Workshop)
 {
 
@@ -94,35 +94,35 @@ sf::Vector2f towerManagament::getSize()
 
 void towerManagament::produceTowers()
 {
-	std::shared_ptr<tower> t1 = std::make_shared<arcaneTower>();
+	//std::shared_ptr<tower> t1 = std::make_shared<arcaneTower>();
 	std::shared_ptr<tower> t2 = std::make_shared<archerTower>();
-	std::shared_ptr<tower> t3 = std::make_shared<cannonTower>();
+	//std::shared_ptr<tower> t3 = std::make_shared<cannonTower>();
 	std::shared_ptr<tower> t4 = std::make_shared<poisonTower>();
 	std::shared_ptr<tower> t5 = std::make_shared<iceTower>();
-	std::shared_ptr<tower> t6 = std::make_shared<crossbowTower>();
-	std::shared_ptr<tower> t8 = std::make_shared<magmaTower>();
-	std::shared_ptr<tower> t9 = std::make_shared<darkTower>();
+	//std::shared_ptr<tower> t6 = std::make_shared<crossbowTower>();
+	//std::shared_ptr<tower> t8 = std::make_shared<magmaTower>();
+	//std::shared_ptr<tower> t9 = std::make_shared<darkTower>();
 	std::shared_ptr<tower> t11 = std::make_shared<lightingTower>();
-	std::shared_ptr<tower> t10 = std::make_shared<electricTower>();
-	std::shared_ptr<tower> t13 = std::make_shared<deathTower>();
+	//std::shared_ptr<tower> t10 = std::make_shared<electricTower>();
+	//std::shared_ptr<tower> t13 = std::make_shared<deathTower>();
 	std::shared_ptr<tower> t12 = std::make_shared<laserTower>();
-	std::shared_ptr<tower> t7 = std::make_shared<antennaTower>();
-	std::shared_ptr<tower> t14 = std::make_shared<signalTower>();
+	//std::shared_ptr<tower> t7 = std::make_shared<antennaTower>();
+	//std::shared_ptr<tower> t14 = std::make_shared<signalTower>();
 
-	towerShopTemplates.push_back(t1);
+	//towerShopTemplates.push_back(t1);
 	towerShopTemplates.push_back(t2);
-	towerShopTemplates.push_back(t3);
+	//towerShopTemplates.push_back(t3);
 	towerShopTemplates.push_back(t4);
 	towerShopTemplates.push_back(t5);
-	towerShopTemplates.push_back(t6);
-	towerShopTemplates.push_back(t7);
-	towerShopTemplates.push_back(t8);
-	towerShopTemplates.push_back(t9);
-	towerShopTemplates.push_back(t10);
+	//towerShopTemplates.push_back(t6);
+	//towerShopTemplates.push_back(t7);
+	//towerShopTemplates.push_back(t8);
+	//towerShopTemplates.push_back(t9);
+	//towerShopTemplates.push_back(t10);
 	towerShopTemplates.push_back(t11);
 	towerShopTemplates.push_back(t12);
-	towerShopTemplates.push_back(t13);
-	towerShopTemplates.push_back(t14);
+	//towerShopTemplates.push_back(t13);
+	//towerShopTemplates.push_back(t14);
 
 	sf::Vector2f towerPosition;
 

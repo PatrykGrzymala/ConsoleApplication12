@@ -168,7 +168,7 @@ void iceTower::workshopHandler::place()
 
 	slow.setFont(*font);
 	slow.setCharacterSize(25);
-	slow.setColor(sf::Color::Red);
+	slow.setFillColor(sf::Color::Red);
 	sf::Vector2f slowPos;
 	slowPos.x = wsPos.x + wsSize.x / 20;
 	slowPos.y = wsPos.y + wsSize.y / 2 - slow.getGlobalBounds().height * 3 / 4;
@@ -176,7 +176,7 @@ void iceTower::workshopHandler::place()
 
 	range.setFont(*font);
 	range.setCharacterSize(30);
-	range.setColor(sf::Color::Red);
+	range.setFillColor(sf::Color::Red);
 	sf::Vector2f rangePos;
 	rangePos.x = wsPos.x + wsSize.x * 2 / 5;
 	rangePos.y = wsPos.y + wsSize.y / 2 - range.getGlobalBounds().height * 3 / 4;
@@ -184,7 +184,7 @@ void iceTower::workshopHandler::place()
 
 	rangeBuff.setFont(*font);
 	rangeBuff.setCharacterSize(18);
-	rangeBuff.setColor(sf::Color::Green);
+	rangeBuff.setFillColor(sf::Color::Green);
 	sf::Vector2f rangeBuffPos;
 	rangeBuffPos.x = range.getPosition().x + range.getGlobalBounds().width + 3.f;
 	rangeBuffPos.y = range.getPosition().y + range.getGlobalBounds().height / 2 - rangeBuff.getGlobalBounds().height * 0.3f;
@@ -192,7 +192,7 @@ void iceTower::workshopHandler::place()
 
 	upgradeCost.setFont(*font);
 	upgradeCost.setCharacterSize(20);
-	upgradeCost.setColor(sf::Color::Red);
+	upgradeCost.setFillColor(sf::Color::Red);
 	sf::Vector2f costPos;
 	costPos.x = upgrader.getPosition().x + upgrader.getSize().x / 2 - upgradeCost.getGlobalBounds().width / 2;
 	costPos.y = upgrader.getPosition().y - upgradeCost.getGlobalBounds().height*1.4f;
@@ -200,7 +200,7 @@ void iceTower::workshopHandler::place()
 
 	sellText.setFont(*font);
 	sellText.setCharacterSize(20);
-	sellText.setColor(sf::Color::Red);
+	sellText.setFillColor(sf::Color::Red);
 	sellText.setString("SELL");
 	sf::Vector2f sellTPos;
 	sellTPos.x = wsPos.x + wsSize.x - sellText.getGlobalBounds().width;
@@ -250,17 +250,17 @@ iceTower::shopTemplate::shopTemplate(iceTower *ownr)
 {
 	cost.setString("cost=" + intToString(owner->cost));
 	cost.setCharacterSize(charSize);
-	cost.setColor(sf::Color(240, 24, 24));
+	cost.setFillColor(sf::Color(240, 24, 24));
 
 	slow.setFont(*font);
 	slow.setString("slow =" + floatToString(owner->slow * 100.f) + "%");
 	slow.setCharacterSize(charSize);
-	slow.setColor(sf::Color(240, 24, 24));
+	slow.setFillColor(sf::Color(240, 24, 24));
 
 	range.setFont(*font);
 	range.setString("range=" + floatToString(owner->range));
 	range.setCharacterSize(charSize);
-	range.setColor(sf::Color(240, 24, 24));
+	range.setFillColor(sf::Color(240, 24, 24));
 }
 
 void iceTower::shopTemplate::setPosition(sf::Vector2f position)

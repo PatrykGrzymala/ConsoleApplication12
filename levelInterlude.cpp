@@ -7,7 +7,7 @@ levelInterlude::levelInterlude(int currentlevel)
 {
 	setFont(*Gra::getInstance()->getFont());
 	setCharacterSize(200);
-	setColor(sf::Color(90, 90, 140));
+	setFillColor(sf::Color(90, 90, 140));
 	setString("Level " + intToString(currentlevel));
 	sf::FloatRect backgroundRect = MainGra::getInstance()->getMap()->getBackgroundBounds();
 	setPosition(getMiddlePosition(backgroundRect, getGlobalBounds()));

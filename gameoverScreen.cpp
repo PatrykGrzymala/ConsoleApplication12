@@ -22,7 +22,7 @@ gameoverScreen::gameoverScreen()
 	backButton.setFont(*Gra::getInstance()->getFont());
 	backButton.setCharacterSize(30);
 	backButton.setString("Back");
-	backButton.setColor(sf::Color::Red);
+	backButton.setFillColor(sf::Color::Red);
 	backButton.setPosition(getMidlePosition(sf::Vector2f(WIDTH / 2, HEIGHT * 4 / 5), backButton.getGlobalBounds()));
 }
 

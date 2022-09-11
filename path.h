@@ -4,17 +4,18 @@
 #include "MainGra.h"
 class path
 {
-	friend class mainGame;
+	friend class MainGra;
 	friend class monster;
 
-	std::vector <sf::Vector2f> wayPoints;
+	
 
-	void makeUnBuildablePath();
+
 
 public:
 	std::queue <sf::Vector2f> waypoints;
 	path();
 	~path();
-
+	void makeUnBuildablePath();
 	static const float width;
+	std::vector <sf::Vector2f> wayPoints;
 };

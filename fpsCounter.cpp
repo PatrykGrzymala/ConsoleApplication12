@@ -13,7 +13,7 @@ fpsCounter::fpsCounter()
 
 	fpsText.setFont(font);
 	fpsText.setCharacterSize(30);
-	fpsText.setColor(sf::Color(200, 200, 220));
+	fpsText.setFillColor(sf::Color(200, 200, 220));
 	fpsText.setString("fps = ");
 }
 

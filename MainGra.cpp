@@ -60,7 +60,7 @@ MainGra::MainGra(const std::string fileName)
 	skipLevelText.setFont(*Gra::getInstance()->getFont());
 	skipLevelText.setString("Skip Level");
 	skipLevelText.setCharacterSize(18);
-	skipLevelText.setColor(sf::Color(30, 30, 60));
+	skipLevelText.setFillColor(sf::Color(30, 30, 60));
 	sf::Vector2f skipLevelPos;
 	skipLevelPos.x = shop->getPosition().x - skipLevelText.getGlobalBounds().width*1.2f;
 	skipLevelPos.y = HEIGHT / 100;
@@ -69,7 +69,7 @@ MainGra::MainGra(const std::string fileName)
 	levelCounter.setFont(*Gra::getInstance()->getFont());
 	levelCounter.setString("Level 1");
 	levelCounter.setCharacterSize(18);
-	levelCounter.setColor(sf::Color(30, 30, 30));
+	levelCounter.setFillColor(sf::Color(30, 30, 30));
 	sf::Vector2f levelCounterPos;
 	levelCounterPos.x = skipLevelText.getPosition().x - 2 * levelCounter.getGlobalBounds().width;
 	levelCounterPos.y = HEIGHT / 100;
@@ -266,7 +266,7 @@ void MainGra::loadLevel(const std::string fileName)
 
 	if (!file.is_open())
 	{
-		std::cout<<"Unable to open fileName.txt to read Level, please call to Bartek";
+		std::cout<<"Unable to open fileName.txt to read Level";
 		return;
 	}
 
@@ -285,7 +285,7 @@ void MainGra::loadLevel(const std::string fileName)
 	if (!isParsed)
 	{
 		print("nie da sie zparsowac");
-		print(reader.getFormatedErrorMessages());
+		//print(reader.getFormatedErrorMessages());
 		return;
 	}
 
@@ -293,7 +293,7 @@ void MainGra::loadLevel(const std::string fileName)
 
 	if (!Map.texture.loadFromFile("Textury/" + mapBackgroundName))
 	{
-		std::cout<<"Unable to open map texture, please call to Bartek";
+		std::cout<<"Unable to open map textur";
 		return;
 	}
 	Map.background.setTexture(Map.texture);
@@ -302,7 +302,7 @@ void MainGra::loadLevel(const std::string fileName)
 
 	if (!music.openFromFile("Music/" + musicName))
 	{
-		std::cout<<"Unable to open music, please call to Bartek";
+		std::cout<<"Unable to open music";
 		return;
 	}
 

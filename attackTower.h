@@ -46,8 +46,8 @@ public:
 	float getPowerBuffFactor();
 	float getRangeBuffFactor();
 
-	void addBuff(buff buffer) override;
-	void removeBuff(buff unbuffer) override;
+	//void addBuff(buff buffer) override;
+	//void removeBuff(buff unbuffer) override;
 
 	virtual void searchTarget();
 	virtual void attack();
