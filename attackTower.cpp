@@ -172,7 +172,7 @@ void attackTower::sell()
 
 void attackTower::shoot()
 {
-	bullet bulet(bulletTextureName, this);
+	bullet bulet(bulletSize, this);
 	bullets.push_back(bulet);
 }
 

@@ -21,7 +21,7 @@ protected:
 	std::vector<bullet> bullets;
 	sf::Vector2f startBulletPosition;
 	std::string textureName;
-	std::string bulletTextureName;
+	sf::Vector2f bulletSize;
 
 
 	sf::CircleShape attackCircle;

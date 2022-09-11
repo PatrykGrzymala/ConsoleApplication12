@@ -1,13 +1,20 @@
 #pragma once
 #include "Template.h"
 #include "Window.h"
-class bullet
+class bullet : public sf::Drawable, attackTower
 {
 public:
-	bullet(sf::Vector2f size);
+	bullet(sf::Vector2f size, attackTower* ownr);
 	~bullet();
 	sf::Vector2f newPos;
-	int speed;
+	static int speed;
+	sf::Vector2f velocity;
+	int dmg;
+	attackTower *owner;
+
+	sf::Time timeExist;
+	static sf::Time timer;
+
 
 	void fire(int speed)
 	{

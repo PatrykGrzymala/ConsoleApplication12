@@ -29,7 +29,7 @@ class base::workshopHandler : public tower::workshopHandler
 	base *owner;
 public:
 	workshopHandler(base *ownr);
-	//void join(class workshop *ws) override;
+	void join(class workshop *ws) override;
 	void draw(sf::RenderTarget & target, sf::RenderStates states) const;
 	void update() override;
 	void set() override;

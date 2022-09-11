@@ -1,13 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   archerTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -17,20 +12,21 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\archertower.cpp(50): error C2065: 'bulletTextureName': undeclared identifier
   attackTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -40,41 +36,39 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(55): error C2039: 'getMap': is not a member of 'Gra'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(8): note: see declaration of 'Gra'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): error C2259: 'bullet': cannot instantiate abstract class
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): note: due to following members:
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): note: 'void sf::Drawable::draw(sf::RenderTarget &,sf::RenderStates) const': is abstract
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\drawable.hpp(69): note: see declaration of 'sf::Drawable::draw'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): error C2678: binary '==': no operator found which takes a left-hand operand of type 'bullet' (or there is no acceptable conversion)
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(192): note: could be 'bool operator ==(const GUID &,const GUID &)'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\time.hpp(161): note: or       'bool sf::operator ==(sf::Time,sf::Time)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\string.hpp(521): note: or       'bool sf::operator ==(const sf::String &,const sf::String &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\window\videomode.hpp(117): note: or       'bool sf::operator ==(const sf::VideoMode &,const sf::VideoMode &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\blendmode.hpp(133): note: or       'bool sf::operator ==(const sf::BlendMode &,const sf::BlendMode &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\transform.hpp(419): note: or       'bool sf::operator ==(const sf::Transform &,const sf::Transform &)' [found using argument-dependent lookup]
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\color.hpp(114): note: or       'bool sf::operator ==(const sf::Color &,const sf::Color &)' [found using argument-dependent lookup]
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): note: while trying to match the argument list '(bullet, _Ty)'
           with
           [
               _Ty=bullet
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from 'const _Ty' to 'const sf::Drawable &'
-          with
-          [
-              _Ty=bullet
-          ]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): note: Reason: cannot convert from 'const _Ty' to 'const sf::Drawable'
-          with
-          [
-              _Ty=bullet
-          ]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   base.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -84,24 +78,24 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.cpp(92): error C2509: 'join': member function not declared in 'base::workshopHandler'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(24): note: see declaration of 'base::workshopHandler'
-  Basehp.cpp
-  bbutton.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   bullet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(7): error C2061: syntax error: identifier 'attackTower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -111,24 +105,25 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2084: function 'bullet::bullet(sf::Vector2f)' already has a body
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): note: see previous definition of '{ctor}'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2530: 'bullet::window': references must be initialized
-  Button.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(6): error C2511: 'bullet::bullet(sf::Vector2f,attackTower *)': overloaded member function not found in 'bullet'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(4): note: see declaration of 'bullet'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(10): error C2065: 'owner': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(11): error C2065: 'owner': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   ChooseLevel.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -138,7 +133,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -158,14 +158,13 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2143: syntax error: missing ';' before '&'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(7): error C2061: syntax error: identifier 'attackTower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -175,7 +174,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -197,26 +201,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): e
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2923: 'std::unique_ptr': 'gameCtrl' is not a valid template type argument for parameter '_Ty'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C2903: 'default_delete': symbol is neither a class template nor a function template
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(41): error C3203: 'default_delete': unspecialized class template can't be used as a template argument for template parameter '_Dx', expected a real type
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(22): error C2039: 'setFont': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(23): error C2039: 'setCharacterSize': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(24): error C2039: 'setString': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(25): error C2039: 'setFillColor': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: 'setPosition': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2039: 'getGlobalBounds': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(26): error C2660: 'getMidlePosition': function does not take 1 arguments
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\template.h(40): note: see declaration of 'getMidlePosition'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(35): error C2065: 'particleSystem': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(39): error C2039: 'getGlobalBounds': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(41): error C2039: 'isIncreased': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(43): error C2039: 'increase': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): error C2664: 'void Gra::setController(std::unique_ptr)': cannot convert argument 1 from 'std::unique_ptr<Menu,std::default_delete<_Ty>>' to 'std::unique_ptr'
           with
@@ -224,26 +210,15 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscre
               _Ty=Menu
           ]
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(48): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(52): error C2039: 'getGlobalBounds': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(54): error C2039: 'isIncreased': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(56): error C2039: 'decrease': is not a member of 'Button'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): error C2664: 'void sf::RenderTarget::draw(const sf::VertexBuffer &,size_t,size_t,const sf::RenderStates &)': cannot convert argument 1 from 'Button' to 'const sf::Drawable &'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: Reason: cannot convert from 'Button' to 'const sf::Drawable'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: 'particleSystem': undeclared identifier
   healIcon.cpp
   iceTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -253,21 +228,26 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(37): error C2065: 'bulletTextureName': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): error C2065: 'bulletTextureName': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): error C2259: 'bullet': cannot instantiate abstract class
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): note: due to following members:
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): note: 'void sf::Drawable::draw(sf::RenderTarget &,sf::RenderStates) const': is abstract
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\drawable.hpp(69): note: see declaration of 'sf::Drawable::draw'
   laserTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -277,20 +257,20 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   levelInterlude.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -300,7 +280,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -313,14 +298,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   lightingTower .cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -330,21 +310,20 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-  main.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   MainGra.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -354,7 +333,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -366,17 +350,13 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(134): error C4996: 'sf::RenderWindow::capture': was declared deprecated
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp(158): note: see declaration of 'sf::RenderWindow::capture'
   map.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -386,7 +366,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -451,17 +436,14 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(96)
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(98): error C2039: 'increase': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-  Generating Code...
-  Compiling...
   monster.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(7): error C2061: syntax error: identifier 'attackTower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -471,7 +453,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -501,14 +488,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandle
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2065: 'monsterEffect': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -518,7 +500,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -531,14 +518,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   path.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -548,7 +530,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -563,14 +550,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C3646: 'levelPath': unknown override specifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   pause.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -580,7 +562,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -617,15 +604,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(11
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(118): error C2039: 'setPosition': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
+  Generating Code...
+  Compiling...
   poisonTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -635,20 +619,21 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
           with
           [
               T=float
           ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\poisontower.cpp(34): error C2065: 'bulletTextureName': undeclared identifier
   straightBullet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -658,7 +643,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -678,14 +668,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbull
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(46): error C3861: 'getCenter': identifier not found
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(47): error C3861: 'getCenter': identifier not found
   upgradeImage.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -695,7 +680,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -703,14 +693,13 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\upgradeimage.cpp(24): error C4996: 'sf::Text::setColor': was declared deprecated
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
   wave.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(7): error C2061: syntax error: identifier 'attackTower'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -720,7 +709,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -741,14 +735,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(23
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2065: 'wave': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2059: syntax error: '>'
   tower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -758,7 +747,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -766,14 +760,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(322): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(324): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   towerManagament.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -783,7 +772,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -798,14 +792,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C2079: 'MainGra::towerHandler' uses undefined class 'workshop'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.h(110): error C3668: 'attackTower::workshopHandler::join': method with override specifier 'override' did not override any base class methods
   wallet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -815,7 +804,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -841,14 +835,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagem
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C2238: unexpected token(s) preceding ';'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(38): error C2061: syntax error: identifier 'workshop'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2504: 'attackTower': base class undefined
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -858,7 +847,12 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
@@ -871,6 +865,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C2079: 'MainGra::towerHandler' uses undefined class 'workshop'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\workshop.cpp(52): error C2660: 'tower::workshopHandler::join': function does not take 1 arguments
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): note: see declaration of 'tower::workshopHandler::join'
   Generating Code...

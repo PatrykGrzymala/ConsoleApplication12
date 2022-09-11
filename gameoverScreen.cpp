@@ -19,11 +19,11 @@ gameoverScreen::gameoverScreen()
 	sound.setVolume(70);
 	sound.play();
 
-	backButton.setFont(*Gra::getInstance()->getFont());
-	backButton.setCharacterSize(30);
-	backButton.setString("Back");
-	backButton.setFillColor(sf::Color::Red);
-	backButton.setPosition(getMidlePosition(sf::Vector2f(WIDTH / 2, HEIGHT * 4 / 5), backButton.getGlobalBounds()));
+	//backButton.setFont(*Gra::getInstance()->getFont());
+	//backButton.setCharacterSize(30);
+	//backButton.setString("Back");
+	//backButton.setFillColor(sf::Color::Red);
+	//backButton.setPosition(getMidlePosition(sf::Vector2f(WIDTH / 2, HEIGHT * 4 / 5), backButton.getGlobalBounds()));
 }
 
 gameoverScreen::~gameoverScreen()
@@ -38,10 +38,10 @@ void gameoverScreen::update()
 
 	if (backButton.getGlobalBounds().contains(mousePos))
 	{
-		if (!backButton.isIncreased())
-		{
-			backButton.increase();
-		}
+		//if (!backButton.isIncreased())
+		//{
+		//	backButton.increase();
+		//}
 
 		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 		{
@@ -49,13 +49,13 @@ void gameoverScreen::update()
 			return;
 		}
 	}
-	else if (!backButton.getGlobalBounds().contains(mousePos))
-	{
-		if (backButton.isIncreased())
-		{
-			backButton.decrease();
-		}
-	}
+	//else if (!backButton.getGlobalBounds().contains(mousePos))
+	//{
+	//	if (backButton.isIncreased())
+	//	{
+	//		backButton.decrease();
+	//	}
+	//}
 }
 
 void gameoverScreen::draw(sf::RenderWindow & window)
