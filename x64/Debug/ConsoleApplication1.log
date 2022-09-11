@@ -93,18 +93,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.cpp(92)
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(24): note: see declaration of 'base::workshopHandler'
   Basehp.cpp
   bbutton.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(4): error C2039: 'setFont': is not a member of 'sf::RectangleShape'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(5): error C2039: 'setString': is not a member of 'sf::RectangleShape'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(6): error C2039: 'setCharacterSize': is not a member of 'sf::RectangleShape'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(17): error C2065: 'tekst': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(18): error C2065: 'tekst': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(20): error C2143: syntax error: missing ';' before '}'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(32): error C2065: 'bbutton1': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(33): error C2065: 'bbutton1': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(35): error C2065: 'bbutton1': undeclared identifier
   bullet.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -133,8 +121,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2530: 'bullet::window': references must be initialized
   Button.cpp
   ChooseLevel.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C3646: 'buttonBack': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
@@ -164,29 +150,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(38): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(110): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(111): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(112): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(113): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): error C2665: 'sf::Vector2<float>::Vector2': none of the 4 overloads could convert all the argument types
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(77): note: could be 'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(77): note: or       'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(56): note: or       'sf::Vector2<float>::Vector2(T,T)'
-          with
-          [
-              T=float
-          ]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\vector2.hpp(47): note: or       'sf::Vector2<float>::Vector2(void)'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(114): note: while trying to match the argument list '(float)'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(115): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(122): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(124): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(127): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(132): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(134): error C2065: 'buttonBack': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(135): error C2065: 'buttonBack': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.cpp(11): error C2512: 'bbutton': no appropriate default constructor available
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.h(6): note: see declaration of 'bbutton'
   effectHandler.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C3646: 'effects': unknown override specifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -223,8 +188,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   fpsCounter.cpp
-  gameCompletedScreen.cpp
-  gameLoader.cpp
   gameoverScreen.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: 'gameCtrl': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: 'std::unique_ptr': 'gameCtrl' is not a valid template type argument for parameter '_Ty'
@@ -272,7 +235,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscre
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: 'particleSystem': undeclared identifier
   healIcon.cpp
-  hpBar.cpp
   iceTower.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -374,9 +336,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
               T=float
           ]
   main.cpp
-  Generating Code...
-  Compiling...
-  Gra.cpp
   MainGra.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -445,8 +404,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(56): error C2238: unexpected token(s) preceding ';'
   Menu.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C3646: 'buttonBack': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(21): error C2039: 'setFont': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(22): error C2039: 'setString': is not a member of 'Button'
@@ -494,7 +451,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(96)
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(98): error C2039: 'increase': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-  menuParticleSystem.cpp
+  Generating Code...
+  Compiling...
   monster.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -719,8 +677,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbull
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(34): error C2065: 'sprite': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(46): error C3861: 'getCenter': identifier not found
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(47): error C3861: 'getCenter': identifier not found
-  Template.cpp
-  textureCache.cpp
   upgradeImage.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data

@@ -12,14 +12,14 @@ public:
 	
 	bbutton(std::string tekst, int size, sf::Font font, sf::Vector2f position, sf::Vector2f sizee);
 
-	~bbutton() {};
+	~bbutton();
 	Type size;
 	sf::Text text1;
-	void increase();
-	void decrease();
-	bool isMouseOn();
+	//void increase();
+	//void decrease();
+	//bool isMouseOn(sf::Vector2f cos);
 	
-	bool isIncreased();
+	//bool isIncreased();
 	bool isClickOn(sf::Vector2f mousePosition);
 
 	void setFont(sf::Font &font);

@@ -7,45 +7,50 @@ text1.setCharacterSize(size);
 bbutton1.setPosition(position);
 bbutton1.setSize(sizee);
 }
-void bbutton::increase()
+
+bbutton::~bbutton()
 {
 
 }
+//void bbutton::increase()
+//{
+
+//}
 
 void bbutton::setFont(sf::Font &font)
 {
 	text1.setFont(font);
 
 }
-void bbutton::decrease()
-{
+//void bbutton::decrease()
+//{
 
-}
+//}
 
-bool bbutton::isMouseOn()
+//bool bbutton::isMouseOn(sf::Vector2f cos)
+//{
+
+
+//bool bbutton::isIncreased()
+//{
+
+//}
+
+bool bbutton::isClickOn(sf::Vector2f cos)
 {
+	sf::Vector2f getMousePos();
+	float mouseX = cos.x;
+	float mouseY = cos.y;
+
+	float btnPosX = bbutton1.getPosition().x;
+	float btnPosY = bbutton1.getPosition().y;
+
+	float btnxPosWidth = bbutton1.getPosition().x + bbutton1.getLocalBounds().width;
+	float btnxPosHeight = bbutton1.getPosition().y + bbutton1.getLocalBounds().height;
+
+	if (mouseX < btnxPosWidth && mouseX > btnPosX && mouseY < btnxPosHeight && mouseY > btnPosY && sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) {
+		return true;
+	}
+	return false;
 	
-		float mouseX = getMousePos().x;
-		float mouseY = getMousePos().y;
-
-		float btnPosX = bbutton1.getPosition().x;
-		float btnPosY = bbutton1.getPosition().y;
-
-		float btnxPosWidth = bbutton1.getPosition().x + bbutton1.getLocalBounds().width;
-		float btnxPosHeight = bbutton1.getPosition().y + bbutton1.getLocalBounds().height;
-
-		if (mouseX < btnxPosWidth && mouseX > btnPosX && mouseY < btnxPosHeight && mouseY > btnPosY) {
-			return true;
-		}
-		return false;
-}
-
-bool bbutton::isIncreased()
-{
-
-}
-
-bool bbutton::isClickOn(sf::Vector2f mousePosition)
-{
-
 }

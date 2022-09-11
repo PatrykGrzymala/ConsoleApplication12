@@ -6,3 +6,6 @@ bullet::bullet(sf::Vector2f size)
 	bullets.setSize(size);
 }
 
+bullet::~bullet() {
+
+}

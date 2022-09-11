@@ -1,6 +1,6 @@
 #pragma once
 #include "gameCtrl.h"
-#include "Button.h"
+#include "bbutton.h"
 #include "Font.h"
 
 class ChooseLevel :public gameCtrl, private Font
@@ -18,7 +18,7 @@ class ChooseLevel :public gameCtrl, private Font
 	sf::Text textMedium;
 	sf::Text textHard;
 
-	button buttonBack;
+	bbutton buttonBack;
 	std::string fileName;
 
 	void loadTextures();

@@ -119,21 +119,21 @@ void ChooseLevel::handleButton()
 {
 	sf::Vector2f mousePosition = (sf::Vector2f)sf::Mouse::getPosition(Gra::getInstance()->getWindow());
 
-	if ((buttonBack.isMouseOn(mousePosition)) && (!buttonBack.isIncreased()))
-	{
-		buttonBack.increase();
-	}
+	//if ((buttonBack.isMouseOn(mousePosition)) && (!buttonBack.isIncreased()))
+	//{
+	//	buttonBack.increase();
+	//}
 
-	else if (buttonBack.isClickOn(mousePosition))
+	if (buttonBack.isClickOn(mousePosition))
 	{
 		Gra::getInstance()->setController(std::make_unique<Menu>());
 	}
 
-	else if (!buttonBack.isMouseOn(mousePosition) && (buttonBack.isIncreased()))
-	{
-		buttonBack.decrease();
-		buttonBack.setColor(sf::Color::Blue);
-	}
+	//else if (!buttonBack.isMouseOn(mousePosition) && (buttonBack.isIncreased()))
+	//{
+	//	buttonBack.decrease();
+	//	buttonBack.setColor(sf::Color::Blue);
+	//}
 }
 
 void ChooseLevel::handleScreens()

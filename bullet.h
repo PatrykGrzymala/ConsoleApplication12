@@ -1,14 +1,12 @@
 #pragma once
 #include "Template.h"
+#include "Window.h"
 class bullet
 {
 public:
-	bullet(sf::Vector2f size){
-
-	}
+	bullet(sf::Vector2f size);
 	~bullet();
 	sf::Vector2f newPos;
-	sf::RenderWindow& window;
 	int speed;
 
 	void fire(int speed)
@@ -36,9 +34,9 @@ public:
 		return bullets.getPosition().y + bullets.getSize().y;
 	}
 
-	void draw(sf::RenderWindow& window)
+	void draw(sf::RenderWindow& target)
 	{
-		window.draw(bullets);
+		target.draw(bullets);
 	}
 
 	void setPos(sf::Vector2f newPos)
