@@ -15,7 +15,7 @@ class MainGra :public gameCtrl
 {
 	friend class towerManagament;
 	friend class upgradeImage;
-
+	friend class workshop;
 	static MainGra* instance;
 
 	map Map;

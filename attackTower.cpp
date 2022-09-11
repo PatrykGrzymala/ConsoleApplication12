@@ -424,7 +424,7 @@ void attackTower::workshopHandler::place()
 
 	rangeBuff.setFont(*font);
 	rangeBuff.setCharacterSize(18);
-	rangeBuff.setColor(sf::Color::Green);
+	rangeBuff.setFillColor(sf::Color::Green);
 	sf::Vector2f rangeBuffPos;
 	rangeBuffPos.x = range.getPosition().x + range.getGlobalBounds().width + 3.f;
 	rangeBuffPos.y = range.getPosition().y + range.getGlobalBounds().height / 2 - rangeBuff.getGlobalBounds().height / 3;
@@ -432,7 +432,7 @@ void attackTower::workshopHandler::place()
 
 	upgradeCost.setFont(*font);
 	upgradeCost.setCharacterSize(20);
-	upgradeCost.setColor(sf::Color::Red);
+	upgradeCost.setFillColor(sf::Color::Red);
 	sf::Vector2f costPos;
 	costPos.x = upgrader.getPosition().x + upgrader.getSize().x / 2 - upgradeCost.getGlobalBounds().width / 2;
 	costPos.y = upgrader.getPosition().y - upgradeCost.getGlobalBounds().height*1.4f;
@@ -440,7 +440,7 @@ void attackTower::workshopHandler::place()
 
 	sellText.setFont(*font);
 	sellText.setCharacterSize(20);
-	sellText.setColor(sf::Color::Red);
+	sellText.setFillColor(sf::Color::Red);
 	sellText.setString("SELL");
 	sf::Vector2f sellTPos;
 	sellTPos.x = wsPos.x + wsSize.x - sellText.getGlobalBounds().width;

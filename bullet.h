@@ -1,9 +1,9 @@
 #pragma once
-
+#include "Template.h"
 class bullet
 {
-	bullet(sf::Vector2f size)
-	{
+public:
+	bullet(sf::Vector2f size){
 
 	}
 	~bullet();
@@ -45,6 +45,15 @@ class bullet
 	{
 		bullets.setPosition(newPos);
 	}
-public:
+
+	void rotate() {
+
+	}
+
+	void update() {
+
+	}
+
 	sf::RectangleShape bullets;
+	std::string bulletTextureName;
 };

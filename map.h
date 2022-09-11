@@ -2,12 +2,12 @@
 #include "Template.h"
 #include "MainGra.h"
 #include "towerManagement.h"
+#include "tower.h"
 class map :public sf::Drawable, public sf::Transformable
 {
 	friend class MainGra;
 	friend class towerManagament;
-
-	
+	friend class tower;
 
 
 public:
