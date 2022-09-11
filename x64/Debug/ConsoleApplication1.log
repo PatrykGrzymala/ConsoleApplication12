@@ -1,6 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   archerTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -22,12 +22,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\archertower.cpp(20): error C2039: 'rotate': is not a member of 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\archertower.cpp(21): error C2039: 'update': is not a member of 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
   attackTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -52,8 +48,6 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(55): error C2039: 'getMap': is not a member of 'Gra'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(8): note: see declaration of 'Gra'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(175): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(183): error C2039: 'update': is not a member of 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): error C2678: binary '==': no operator found which takes a left-hand operand of type 'bullet' (or there is no acceptable conversion)
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(192): note: could be 'bool operator ==(const GUID &,const GUID &)'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(197): note: while trying to match the argument list '(bullet, _Ty)'
@@ -72,14 +66,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.
               _Ty=bullet
           ]
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(376): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(427): error C4996: 'sf::Text::setColor': was declared deprecated
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(435): error C4996: 'sf::Text::setColor': was declared deprecated
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.cpp(443): error C4996: 'sf::Text::setColor': was declared deprecated
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
   base.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -101,42 +89,53 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
           [
               T=float
           ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.cpp(92): error C2509: 'join': member function not declared in 'base::workshopHandler'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(24): note: see declaration of 'base::workshopHandler'
   Basehp.cpp
   bbutton.cpp
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(4): error C2039: 'setFont': is not a member of 'sf::RectangleShape'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(5): error C2039: 'setString': is not a member of 'sf::RectangleShape'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(6): error C2039: 'setCharacterSize': is not a member of 'sf::RectangleShape'
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp(41): note: see declaration of 'sf::RectangleShape'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(17): error C2065: 'tekst': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(18): error C2065: 'tekst': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(20): error C2143: syntax error: missing ';' before '}'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(32): error C2065: 'bbutton1': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(33): error C2065: 'bbutton1': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(35): error C2065: 'bbutton1': undeclared identifier
   bullet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2061: syntax error: identifier 'Vector2f'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C3646: 'newPos': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2143: syntax error: missing ';' before '&'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(11): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(39): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(39): error C2061: syntax error: identifier 'RenderWindow'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(44): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(44): error C2061: syntax error: identifier 'Vector2f'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C2653: 'sf': is not a class or namespace name
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C3646: 'bullets': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): error C2065: 'window': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(41): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(46): error C2065: 'bullets': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(46): error C2065: 'newPos': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2511: 'bullet::bullet(sf::Vector2f)': overloaded member function not found in 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(6): error C2065: 'bullets': undeclared identifier
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(26): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(31): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2084: function 'bullet::bullet(sf::Vector2f)' already has a body
+  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): note: see previous definition of '{ctor}'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.cpp(5): error C2530: 'bullet::window': references must be initialized
   Button.cpp
   ChooseLevel.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C3646: 'buttonBack': unknown override specifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\chooselevel.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -194,7 +193,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(43
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2143: syntax error: missing ';' before '&'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\monster.h(63): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -224,6 +223,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   fpsCounter.cpp
+  gameCompletedScreen.cpp
+  gameLoader.cpp
   gameoverScreen.cpp
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2065: 'gameCtrl': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gra.h(17): error C2923: 'std::unique_ptr': 'gameCtrl' is not a valid template type argument for parameter '_Ty'
@@ -271,8 +272,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscre
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(64): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\gameoverscreen.cpp(65): error C2065: 'particleSystem': undeclared identifier
   healIcon.cpp
+  hpBar.cpp
   iceTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -294,11 +296,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(53): error C2039: 'update': is not a member of 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\icetower.cpp(93): error C2661: 'bullet::bullet': no overloaded function takes 2 arguments
   laserTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -321,7 +321,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
               T=float
           ]
   levelInterlude.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -351,7 +351,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   lightingTower .cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -374,8 +374,11 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
               T=float
           ]
   main.cpp
+  Generating Code...
+  Compiling...
+  Gra.cpp
   MainGra.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -404,11 +407,10 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.cpp(134): error C4996: 'sf::RenderWindow::capture': was declared deprecated
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp(158): note: see declaration of 'sf::RenderWindow::capture'
   map.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -492,13 +494,9 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(96)
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\menu.cpp(98): error C2039: 'increase': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
-  Generating Code...
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(16): error C4716: 'isMouseOn': must return a value
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(26): error C4716: 'isClickOn': must return a value
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bbutton.cpp(21): error C4716: 'isIncreased': must return a value
-  Compiling...
+  menuParticleSystem.cpp
   monster.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -545,7 +543,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandle
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2065: 'monsterEffect': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C2923: 'std::shared_ptr': 'monsterEffect' is not a valid template type argument for parameter '_Ty'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\effecthandler.h(23): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -575,7 +573,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
   path.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -607,7 +605,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C3646: 'levelPath': unknown override specifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   pause.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -662,7 +660,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(11
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\pause.cpp(118): error C2039: 'setPosition': is not a member of 'Button'
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\button.h(3): note: see declaration of 'Button'
   poisonTower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -684,10 +682,8 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
           [
               T=float
           ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\poisontower.cpp(41): error C2039: 'update': is not a member of 'bullet'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(3): note: see declaration of 'bullet'
   straightBullet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -723,8 +719,10 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbull
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(34): error C2065: 'sprite': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(46): error C3861: 'getCenter': identifier not found
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\straightbullet.cpp(47): error C3861: 'getCenter': identifier not found
+  Template.cpp
+  textureCache.cpp
   upgradeImage.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -749,7 +747,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\upgradeimage.cpp(24): error C4996: 'sf::Text::setColor': was declared deprecated
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\text.hpp(210): note: see declaration of 'sf::Text::setColor'
   wave.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -787,7 +785,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(23
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2065: 'wave': undeclared identifier
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(62): error C2059: syntax error: '>'
   tower.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -812,19 +810,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(36)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(322): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.cpp(324): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   towerManagament.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2061: syntax error: identifier 'tower'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: 'towerHandler': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -853,51 +839,10 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C2079: 'MainGra::towerHandler' uses undefined class 'workshop'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\attacktower.h(110): error C3668: 'attackTower::workshopHandler::join': method with override specifier 'override' did not override any base class methods
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(226): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(231): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(237): error C2664: 'bool map::canTowerBuild(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(241): error C2664: 'void map::buildTower(std::shared_ptr &)': cannot convert argument 1 from 'std::shared_ptr<tower>' to 'std::shared_ptr &'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::shared_ptr<tower>' (or there is no acceptable conversion)
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\time.hpp(173): note: or       'bool sf::operator !=(sf::Time,sf::Time)' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(306): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\system\string.hpp(552): note: or       'bool sf::operator !=(const sf::String &,const sf::String &)' [found using argument-dependent lookup]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\window\videomode.hpp(129): note: or       'bool sf::operator !=(const sf::VideoMode &,const sf::VideoMode &)' [found using argument-dependent lookup]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\blendmode.hpp(145): note: or       'bool sf::operator !=(const sf::BlendMode &,const sf::BlendMode &)' [found using argument-dependent lookup]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\transform.hpp(433): note: or       'bool sf::operator !=(const sf::Transform &,const sf::Transform &)' [found using argument-dependent lookup]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\sfml-2.5.1\include\sfml\graphics\color.hpp(128): note: or       'bool sf::operator !=(const sf::Color &,const sf::Color &)' [found using argument-dependent lookup]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1656): note: or       'bool std::operator !=<tower>(const std::shared_ptr<tower> &,std::nullptr_t) noexcept'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: or       'built-in C++ operator!=(bool, _Ty)'
-          with
-          [
-              _Ty=int
-          ]
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(263): note: while trying to match the argument list '(std::shared_ptr<tower>, _Ty)'
-          with
-          [
-              _Ty=int
-          ]
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): error C2679: binary '=': no operator found which takes a right-hand operand of type '_Ty' (or there is no acceptable conversion)
-          with
-          [
-              _Ty=int
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1419): note: could be 'std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(std::shared_ptr<tower> &&) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1406): note: or       'std::shared_ptr<tower> &std::shared_ptr<tower>::operator =(const std::shared_ptr<tower> &) noexcept'
-  c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagament.cpp(272): note: while trying to match the argument list '(std::shared_ptr<tower>, _Ty)'
-          with
-          [
-              _Ty=int
-          ]
   wallet.cpp
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -940,19 +885,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagem
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(26): error C2238: unexpected token(s) preceding ';'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\towermanagement.h(38): error C2061: syntax error: identifier 'workshop'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(16): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(20): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(23): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\map.h(24): error C2061: syntax error: identifier 'tower'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C3646: 'towerHandler': unknown override specifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2065: 'tower': undeclared identifier
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(39): error C2923: 'std::shared_ptr': 'tower' is not a valid template type argument for parameter '_Ty'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(5): error C2530: 'bullet::window': references must be initialized
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(6): error C2530: 'bullet::window': references must be initialized
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\bullet.h(21): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
@@ -981,7 +914,7 @@ c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104)
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2143: syntax error: missing ';' before '*'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(108): error C2238: unexpected token(s) preceding ';'
-c:\users\picer\source\repos\consoleapplication1\consoleapplication1\base.h(32): error C3668: 'base::workshopHandler::join': method with override specifier 'override' did not override any base class methods
+c:\users\picer\source\repos\consoleapplication1\consoleapplication1\maingra.h(28): error C2079: 'MainGra::towerHandler' uses undefined class 'workshop'
 c:\users\picer\source\repos\consoleapplication1\consoleapplication1\workshop.cpp(52): error C2660: 'tower::workshopHandler::join': function does not take 1 arguments
   c:\users\picer\source\repos\consoleapplication1\consoleapplication1\tower.h(104): note: see declaration of 'tower::workshopHandler::join'
   Generating Code...

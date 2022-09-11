@@ -11,5 +11,6 @@ public:
 	~Button();
 	static void update();
 	static bool canClick();
+
 	static bool canClickKey(sf::Keyboard::Key key);
 };

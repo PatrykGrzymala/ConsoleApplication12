@@ -14,7 +14,7 @@ public:
 
 	~bbutton() {};
 	Type size;
-	sf::Text tekst;
+	sf::Text text1;
 	void increase();
 	void decrease();
 	bool isMouseOn();
@@ -22,4 +22,5 @@ public:
 	bool isIncreased();
 	bool isClickOn(sf::Vector2f mousePosition);
 
+	void setFont(sf::Font &font);
 };

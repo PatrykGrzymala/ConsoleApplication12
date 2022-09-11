@@ -1,29 +1,28 @@
 #include "bbutton.h"
 bbutton::bbutton(std::string tekst, int size, sf::Font font, sf::Vector2f position, sf::Vector2f sizee)
 {
-bbutton1.setFont(font);
-bbutton1.setString(tekst);
-bbutton1.setCharacterSize(size);
+text1.setFont(font);
+text1.setString(tekst);
+text1.setCharacterSize(size);
 bbutton1.setPosition(position);
 bbutton1.setSize(sizee);
 }
-void increase()
+void bbutton::increase()
 {
 
 }
 
-void setFont(sf::Font &font)
+void bbutton::setFont(sf::Font &font)
 {
-	tekst.setFont(font);
-	tekst
+	text1.setFont(font);
 
 }
-void decrease()
+void bbutton::decrease()
 {
 
 }
 
-float isMouseOn()
+bool bbutton::isMouseOn()
 {
 	
 		float mouseX = getMousePos().x;
@@ -32,16 +31,21 @@ float isMouseOn()
 		float btnPosX = bbutton1.getPosition().x;
 		float btnPosY = bbutton1.getPosition().y;
 
-		float btnxPosWidt = bbutton1.getPosition().x + bbutton1.getLocalBounds().width;
-	
+		float btnxPosWidth = bbutton1.getPosition().x + bbutton1.getLocalBounds().width;
+		float btnxPosHeight = bbutton1.getPosition().y + bbutton1.getLocalBounds().height;
+
+		if (mouseX < btnxPosWidth && mouseX > btnPosX && mouseY < btnxPosHeight && mouseY > btnPosY) {
+			return true;
+		}
+		return false;
 }
 
-bool isIncreased()
+bool bbutton::isIncreased()
 {
 
 }
 
-bool isClickOn(sf::Vector2f mousePosition)
+bool bbutton::isClickOn(sf::Vector2f mousePosition)
 {
 
 }
